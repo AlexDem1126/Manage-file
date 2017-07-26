@@ -1,11 +1,11 @@
 # Manage-file
-Acknowledgement:
+######Acknowledgement:
   I grateful UCI Machine Learning Repository for the assistance of using their repository where was obtained Ecoli Data Set (ecoli.data) and Data Set Description.
 
-Reference:
+######Reference:
   Lichman, M. (2013). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
 
-Data Set Description:
+######Data Set Description:
   1. Title: Protein Localization Sites
   2. Attribute Information.
     2.1.  Sequence Name: Accession number for the SWISS-PROT database
