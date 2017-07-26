@@ -8,7 +8,7 @@ Reference:
 Data Set Description:
   1. Title: Protein Localization Sites
   2. Attribute Information.
-    1.  Sequence Name: Accession number for the SWISS-PROT database
+    2.1.  Sequence Name: Accession number for the SWISS-PROT database
     2.2.  mcg: McGeoch's method for signal sequence recognition.
     2.3.  gvh: von Heijne's method for signal sequence recognition.
     2.4.  lip: von Heijne's Signal Peptidase II consensus sequence score.
