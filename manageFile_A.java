@@ -1,11 +1,8 @@
 package file;
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.regex.Matcher;
@@ -71,15 +68,11 @@ public manageFile_A(String fileName2) {
 	fileName = fileName2;
 	BufferedReader br;
 	ArrayList<String> fileData_L_temp;
-//	ArrayList<String> fileData_L;
 
 		// read data from a file
 		try {
 			//get a number of rows and columns
-//			numOfPoints = 1;
 			br = new BufferedReader(new FileReader(fileName));
-//			fileData_L_temp =  new ArrayList<String>();
-//			fileData_L =  new ArrayList<String>();
             String line = "";
             line = br.readLine();
             int numOfColumns=0, numOfRows=1;
@@ -93,10 +86,7 @@ public manageFile_A(String fileName2) {
             System.out.println("numOfRows: " + numOfRows);
             System.out.println("numOfColumns: " + numOfColumns);
             System.out.println(numOfRows + numOfColumns);
-            br.close();
-//            fileData_L_temp.clear();
-//            fileData_L.clear();
-            
+            br.close();            
             
             
          // read whole file and store names in the sequenceName, data attributes in the dataset, labels in the classDistribution
@@ -126,7 +116,6 @@ public manageFile_A(String fileName2) {
          			
          			line = "";
          			double[] line2;
-//                    line = br.readLine();
                     while ((line = br.readLine()) != null) {
                     	String[] line_temp2 = line.split("\\s+"); //"  "
                     	sequenceName[nrow][ncol] = line_temp2[0];
@@ -150,8 +139,7 @@ public manageFile_A(String fileName2) {
         			//print data from file
         			printFile(dataset);
                     br.close();
-                    fileData_L_temp.clear();
-//                    fileData_L.clear();              
+                    fileData_L_temp.clear();           
 	
 		} catch (FileNotFoundException e) {
 			System.out.println("Can not find file " + fileName);
@@ -171,9 +159,6 @@ public manageFile_A(String fileName2) {
 
 
 public void printFile(double[][] datasetF){
-//	// print multi-dimensional array
-//	System.out.println(Arrays.deepToString(datasetF));
-	// or
 	// print multi-dimensional array
 	for (int i = 0; i < numOfPoints; i++) {
 		for (int j = 0; j < numOfDimension; j++) {
