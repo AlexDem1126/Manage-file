@@ -1,5 +1,6 @@
 # Manage-file
-Read Ecoli Data Set (see example in Fig.1) and store data in 2D arrays: names in the sequenceName, data attributes in the dataset, labels in the classDistribution.
+1. manageFile_A.java - Read Ecoli Data Set (see example in Fig.1) and store data in 2D arrays: names in the sequenceName, data attributes in the dataset, labels in the classDistribution.
+2. manageFile_AL.java - Read Ecoli Data Set (see example in Fig.1) and store data in ArrayList: names in the sequenceName, data attributes in the dataset, labels in the classDistribution.
 
 ![screenshot_ecoli](https://user-images.githubusercontent.com/22039458/29105373-7dc4eb52-7c92-11e7-8bc9-88ea0bf7ce8a.png)
 
