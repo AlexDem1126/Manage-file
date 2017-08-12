@@ -85,7 +85,6 @@ public manageFile_A(String fileName2) {
                         
             System.out.println("numOfRows: " + numOfRows);
             System.out.println("numOfColumns: " + numOfColumns);
-            System.out.println(numOfRows + numOfColumns);
             br.close();            
             
             
